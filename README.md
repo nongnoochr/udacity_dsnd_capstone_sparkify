@@ -51,8 +51,9 @@ More specifically, I was interested in learning how to use Spark to manipulate l
 
 2. This data set `mini_sparkify_event_data.json` is a mini subset (128MB) of the full dataset available (12GB)
 
-2. The [Sparkify.ipynb](./Sparkify.ipynb) notebook contains all steps in this process and markdown cells were used to assist in walking through the thought process for individual steps.
+3. The [Sparkify.ipynb](./Sparkify.ipynb) notebook contains all steps in this process and markdown cells were used to assist in walking through the thought process for individual steps.
 
+4. The [Sparkify.html](./Sparkify.html) was the report generated after running all cells in the notebook
 
 ## Results<a name="results"></a> 
 
