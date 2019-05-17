@@ -65,7 +65,7 @@ More specifically, I was interested in learning how to use Spark to manipulate l
 
 2. A model trained from the Gradient-boosted tree classifier has a much better performance that a model trained form the Logistic Regression where the best model trained from the Gradient-boosted tree classifier achieved over 99% of area under ROC curve and has an accuracy over 97% while the best model trained from the Logistic Regression achieved only 70% of area under ROC and has an accuracy around 83%
 
-The details and main findings of the code can be found at the post available [here](https://medium.com/@nongnoochroongpiboonsopit/supercharge-your-data-science-portfolio-with-pyspark-7811b7ae91de).
+The detailed findings and analysis can be found in a Medium post available [here](https://medium.com/@nongnoochroongpiboonsopit/supercharge-your-data-science-portfolio-with-pyspark-7811b7ae91de).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
