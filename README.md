@@ -58,9 +58,9 @@ More specifically, I was interested in learning how to use Spark to manipulate l
 ## Results<a name="results"></a> 
 
 1. There are noticable differences between a ratio of gender, average session time, and an average number of songs played within a single session  when comparing users who are churned and remain in service where:
-    (a) Men have a much higher ratio to be churned
-    (b) The average session time of users who remain in service is higher (303 minutes vs 283 minutes)
-  (c) The average number of song per session of users who remain in service is higher (75 songs/session vs 70 songs/session)
+    * Men have a much higher ratio to be churned
+    * The average session time of users who remain in service is higher (303 minutes vs 283 minutes)
+    * The average number of song per session of users who remain in service is higher (75 songs/session vs 70 songs/session)
 
 
 2. A model trained from the Gradient-boosted tree classifier has a much better performance that a model trained form the Logistic Regression where the best model trained from the Gradient-boosted tree classifier achieved over 99% of area under ROC curve and has an accuracy over 97% while the best model trained from the Logistic Regression achieved only 70% of area under ROC and has an accuracy around 83%
