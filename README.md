@@ -57,7 +57,7 @@ More specifically, I was interested in learning how to use Spark to manipulate l
 
 ## Results<a name="results"></a> 
 
-The main findings of the code can be found at the post available [here](xxx).
+The details and main findings of the code can be found at the post available [here](https://medium.com/@nongnoochroongpiboonsopit/supercharge-your-data-science-portfolio-with-pyspark-7811b7ae91de).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
