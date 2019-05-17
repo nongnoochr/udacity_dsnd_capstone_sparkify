@@ -2,6 +2,8 @@
 
 ##  Installation 
 
+After cloning this repository, please unzip `mini_sparkify_event_data.json.zip` before running the `Sparkify.ipynb` notebook (I cannot directly upload the data to this repository due to a file size limitation in github)
+
 Below are python libraries that are required to run this code using Python versions 3.*:
 * pyspark 2.4.3*
 * pandas 0.24.1

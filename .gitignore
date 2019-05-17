@@ -1,6 +1,9 @@
 # User filers
 .DS_Store
 
+# Too large files
+mini_sparkify_event_data.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
