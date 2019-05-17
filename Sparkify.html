@@ -15956,6 +15956,15 @@ only showing top 5 rows
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h3><p>To perform the data engineering tasks to prepare data for the modeling process, we first start off by selecting userId and each feature and perform a transform step based on a type of feature values, for example <code>StringIndexerModel</code> was used to transform categorical data into numberic data, <code>VectorAssembler</code> and <code>StandardScaler</code> were used to transform numeric data into a numeric data with a unit variance.</p>
+<p>After getting a dataframe of userId and transformed data of each feature, we then join all those data frames on the userId columns, combined all feature values into a vector and generate a final data frame which contains only two columns; 'features' and 'label' which we will use in the Modeling process next.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Modeling">Modeling<a class="anchor-link" href="#Modeling">&#182;</a></h1><p>Split the full dataset into train, test, and validation sets. Test out several of the machine learning methods you learned. Evaluate the accuracy of the various models, tuning parameters as necessary. Determine your winning model based on test accuracy and report results on the validation set. Since the churned users are a fairly small subset, I suggest using F1 score as the metric to optimize.</p>
 
 </div>
@@ -16594,6 +16603,26 @@ only showing top 5 rows
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In the last section, we use Spark to create Machine Learning models from the <strong><em>LogisticRegression</em></strong> and <strong><em>GBTClassifier</em></strong> in conjunction with CrossValidator and ParamGridBuilder to tune hyper parameters to find the best model.</p>
 <p>Based on the results above, we can see the the best model that we got from the GBTClassifier out perform the best model getting from the LogisticRegression in terms of accuracy and area under ROC but we spent more time to train the GBTClassifier model.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="What-could-be-done-to-improve?">What could be done to improve?<a class="anchor-link" href="#What-could-be-done-to-improve?">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li><p>Although helper functions were created to perform common feature engineering tasks, the feature engineering steps in this project were performed using procedure programming and we would need to reimplement the same logic again for a similar task. Creating a class or utilizing a pipeline to perform the common data engineering process will greatly help and this  also ease a process of using the same code when deploying in different environments as well (e.g. local, AWS, IBM etc.)</p>
+</li>
+<li><p>The data we used to train a Machine Learning model to predict churn is a tiny subset of the actual dataset (128MB) and it only contains a smaller number of users who are churned. We might see a different patterns or having a different performance metrics if the Machine Learning model is trained with a large dataset (12GB)</p>
+</li>
+</ol>
 
 </div>
 </div>
